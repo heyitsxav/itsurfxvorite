@@ -8,7 +8,7 @@
         body {
             background: radial-gradient(circle at center, #4f0572 0%, #20032e 100%);
             margin: 0;
-            padding: 20px 20px 40px;
+            padding: 0 0 40px;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -54,35 +54,38 @@
         }
 
         @media (max-width: 768px) {
+            body {
+                padding: 0 0 40px;
+            }
             .title-image {
-                max-width: 520px;
-                width: 95vw;
+                max-width: 100%;
+                width: 100%;
             }
             .my-work-link {
-                margin-top: 40px;
+                margin-top: 44px;
             }
             .footer-stack {
-                margin-top: 40px;
+                margin-top: 44px;
             }
             .footer-stack img {
-                max-width: 520px;
-                width: 95vw;
+                max-width: 100%;
+                width: 100%;
             }
             .footer-stack img:last-child {
-                max-width: 280px;
+                max-width: 100%;
                 width: 70vw;
             }
             .my-work-link img {
-                max-width: 300px;
-                width: 80vw;
+                max-width: 100%;
+                width: 88vw;
             }
             .my-work-link:nth-of-type(2) img {
-                max-width: 320px;
-                width: 84vw;
+                max-width: 100%;
+                width: 92vw;
             }
             .my-work-link:nth-of-type(4) img {
-                max-width: 280px;
-                width: 76vw;
+                max-width: 100%;
+                width: 84vw;
             }
         }
     </style>
